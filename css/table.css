@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@500&display=swap');
+
+.content-table{
+    border-collapse:collapse;
+    margin:35px 0;
+    font-size:1.4em;
+    min-width: 500px;
+    border-radius: 7px 7px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 50 px rgba(0, 0,0, 0.15);
+   
+}
+
+
+.content-table thead tr {
+    background-color:#3b3b3b ;
+    color: #ffffff;
+    text-align: center;
+    text-emphasis-color: #ec7705;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 14px 17px;
+    text-emphasis-color: #ec7705;
+
+}
+
+.content-table tbody tr {
+    border-bottom:  2px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(odd){
+    background-color:#f3f3f3;
+}
+.content-table tbody tr:nth-of-type(even){
+    background-color:#f3f3f3;
+}
+
+.content-table tbody tr: last-of-type{
+    border-bottom:2px solid #3b3b3b ;
+}
+.body-bg  {
+    /*background-image:url("1Booking_files/3.jpg");*/
+    
+    background-size: 100% 100%;
+	 z-index:100;
+}
+
+body{
+    
+    background-size: 100vw 100vh;
+    font-family: 'Public Sans', monospace; 
+}
+
+.wt{
+    color:whitesmoke;
+}
+
